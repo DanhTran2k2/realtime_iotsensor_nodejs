@@ -1,0 +1,21 @@
+{
+  "name": "server_dacn1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "firebase": "^8.2.1",
+    "firebase-admin": "^9.4.2",
+    "mqtt": "^4.2.6",
+    "mysql": "^2.18.1",
+    "socket.io": "^3.0.4"
+  }
+}

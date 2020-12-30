@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming@1.8.0"></script>
+</head>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    var socket = io("http://localhost:7000");
+    socket.on('connect', function () {
+        //socket.on("bui", function (bui) {
+           // $("#bui").html(bui);
+
+       // });
+    });
+
+</script>
+
+<body>
+    <div style="width: 1000px">
+        <canvas id="myChart2"></canvas>
+    </div>
+   
+    <script src="js/demo/chart-node1-demo.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <!-- <script src="vendor/chart.js/Chart.min.js"></script> -->
+
+</body>
+
+</html>
